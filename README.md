@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: ([GitHub Pages](https://n3tr00x.github.io/product-card-component/))
 
 ## My process
 
