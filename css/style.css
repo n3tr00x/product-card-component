@@ -72,19 +72,21 @@ body {
 	line-height: 1.5;
 }
 
-.card__price {
+.card__prices {
 	display: flex;
+	align-items: center;
+}
+
+.card__new-price {
 	font-size: 32px;
 	font-family: 'Fraunces', serif;
 	color: var(--dark-cyan);
 }
 
-.card__cut-price {
-	align-self: center;
+.card__old-price {
 	margin-left: 16px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
-	text-decoration: line-through;
 	color: var(--dark-grayish-blue);
 }
 
@@ -141,11 +143,11 @@ body {
 		font-size: 18px;
 	}
 
-	.card__price {
+	.card__new-price {
 		font-size: 40px;
 	}
 
-	.card__cut-price {
+	.card__old-price {
 		font-size: 16px;
 	}
 
