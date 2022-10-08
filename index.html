@@ -31,8 +31,14 @@
 <body>
 
 	<main class="card">
-		<div class="card__image"></div>
-		<div class="card__information">
+		<!-- <div class="card__image"></div> -->
+		<section class="card__image">
+			<picture>
+				<source media="(min-width: 768px)" srcset="./images/image-product-desktop.jpg">
+				<img src="./images/image-product-mobile.jpg" alt="Chanel perfume">
+			</picture>
+		</section>
+		<section class="card__information">
 			<p class="card__type">PERFUME</p>
 			<h2 class="card__header">Gabrielle Essence Eau De Parfum</h2>
 			<p class="card__description">
@@ -45,7 +51,7 @@
 			<button class="card__button">
 				<img class="card__icon-cart" src="./images/icon-cart.svg" alt="Icon cart">Add to Cart
 			</button>
-		</div>
+		</section>
 	</main>
 
 	<!-- <div class="attribution">
